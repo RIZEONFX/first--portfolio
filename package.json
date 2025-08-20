@@ -1,7 +1,7 @@
 {
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -i ./src/output.css -o ./src/dist/build.css --minify",
+    "build": "npx tailwindcss -i ./src/output.css -o ./public/build.css --minify",
     "deploy": "gh-pages -d ./src/dist"
   },
   "dependencies": {
